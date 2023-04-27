@@ -20,6 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint ./src/**",
+    "lint:fix": "eslint ./src/** --fix",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,6 +45,13 @@
     ]
   },
   "devDependencies": {
-    "@emotion/styled": "^11.10.6"
+    "@emotion/styled": "^11.10.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
   }
 }

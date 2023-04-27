@@ -1,5 +1,4 @@
-export interface Note {
+export default interface INote {
 	id: number;
 	text: string;
-  }
-  
+}
