@@ -2,7 +2,8 @@
 	"root": true,
 	"parser": "@typescript-eslint/parser",
 	"plugins": [
-		"@typescript-eslint"
+		"@typescript-eslint",
+		"react-hooks"
 	],
 	"extends": [
 		"eslint:recommended",
@@ -19,6 +20,8 @@
 		"@typescript-eslint/explicit-function-return-type": [
 			"warn"
 		],
+		"react-hooks/rules-of-hooks": "warn",
+    	"react-hooks/exhaustive-deps": "warn",
 		"prettier/prettier": [
 			"error",
 			{

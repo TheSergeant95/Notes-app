@@ -4,12 +4,38 @@ const useStyles = makeStyles()((theme: Theme) => {
 	return {
 		root: {
 			flexGrow: 1,
-			margin: 'auto',
-			maxWidth: 800,
-			padding: theme.spacing(2),
 		},
 		title: {
 			flexGrow: 1,
+		},
+		container: {
+			display: 'flex',
+			justifyContent: 'center',
+			alignItems: 'center',
+			height: '100vh',
+		},
+		paper: {
+			padding: theme.spacing(2),
+			margin: 'auto',
+			maxWidth: 500,
+		},
+		form: {
+			display: 'flex',
+			alignItems: 'baseline',
+			justifyContent: 'space-evenly',
+			marginTop: theme.spacing(2),
+			marginBottom: theme.spacing(2),
+		},
+		textField: {
+			marginLeft: theme.spacing(1),
+			marginRight: theme.spacing(1),
+			width: '60%',
+		},
+		button: {
+			margin: theme.spacing(1),
+		},
+		list: {
+			backgroundColor: theme.palette.background.paper,
 		},
 	};
 });
